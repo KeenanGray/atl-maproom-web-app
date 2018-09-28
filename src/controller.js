@@ -1,9 +1,9 @@
 // Define socket address (Ubuntu server address)
-var socket = io('http://maproom.lmc.gatech.edu:8080/');
+var socket = io('127.0.0.1:8080/');
 
 // Global Variables
 var activeRectangle = document.getElementById("longRect");
-var rectWidth = 730;
+var rectWidth = 200;
 var rectHeight = 200;
 var propertyAssessmentEnabled = false;
 
